@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Write code here */
+
+#container{
+    height: 90vh;
+    width: 100vw;
+    position: relative;
+    background: white;
+    text-align: center;
+}
+
+#form-box{
+    border: 2px solid rgba(0, 0, 0, 0.162);
+    width: 350px;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+.brand-image{
+    text-align: center;
+    margin: 20px;
+}
+.optional-text {
+    width: 90%;
+    margin-left: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.optional-text h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: grey;
+}
+.input-field input{
+    width: 90%;
+    padding: 10px;
+    font-size: 12px;
+    background: whitesmoke;
+    color: #0b0b0b;
+    font-weight: 500;
+    border: 2px solid #00000029;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.primary-btn{
+    width: 90%;
+    border: none;
+    background: #4BB4F8;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+.primary-btn:link{
+    background: #439fdd;
+}
+
+.facebook-btn{
+    width: 90%;
+    border: none;
+    background: #0099ff;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 15px;
+}
+.facebook-btn:link{
+    background: #439fdd;
+}
+.facebook-btn i{
+    font-weight: 300;
+    font-size: 20px;
+}
+.option-barrier{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+.blank{
+    width: 40%;
+    border: 0.1px solid #28282829;
+}
+.option-barrier span{
+    font-size: 14px;
+    font-weight: 600;
+    color: grey;
+}
+
+.para-text{
+    /* border: 2px solid black; */
+    padding: 5px;
+}
+.para-text p{
+    font-size: 12px;
+    color: #292929;
+    opacity: 90%;
+}
+.para-text p a{
+    text-decoration: none;
+    color: #045a94;
+}
+#unique-para{
+    margin-bottom: 10px;
+}
+
+#signup-box{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #00000029;
+    width: 350px;
+    padding: 20px;
+}
+#signup-box h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #292929;
+}
+#signup-box h4 a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #439fdd;
+}
+.other-platforms{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    padding: 20px;
+}
+.other-platforms h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #292929;
+    margin-bottom: 10px;
+}
+
+#google-play-btn{
+    margin-right: 10px;
+}
+
+
+#bottom-bar{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.links a{
+    font-size: 12px;
+    color: #0b0b0b;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 0 10px;
+    cursor: pointer;
+    opacity: 70%;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+
+.copy-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.copy-right a{
+    font-size: 12px;
+    color: #0b0b0b;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 0 10px;
+    cursor: pointer;
+    opacity: 70%;
+}
+.copy-right a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 400px) {
+    #form-box{
+        border: none;
+    }
+    #signup-box{
+        border: none;
+    }
+}
